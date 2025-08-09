@@ -36,7 +36,7 @@ Created an S3 bucket and uploaded three sample CSV files containing hourly air t
 
 ### 3. dbt
 
-Built a SQL pipeline in dbt to transform the data and load the final results as a Snowflake view.  
+Built a SQL pipeline in dbt to transform the data and load the aggregated average temperature as a Snowflake view.  
 (source code: `etl_ava/models` folder)
 
 
@@ -52,7 +52,7 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cc9e57f1-b789-4cfa-8aa5-ab836216a21e" />
 
 
-#### Final output showing the average temperature across the three stations:
+#### Final results showing the average temperature across the three stations:
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cf04154c-34eb-438e-8363-bb78f3601411" />
 
