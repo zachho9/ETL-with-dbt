@@ -6,7 +6,7 @@ To demonstrate my familarity and hands-on experience with AWS, Snowflake, and db
 
 ## Goal
 
-Calculate average air temperature at three avalanche monitoring stations (cleddau, easthomer, and mountbelle) at Mildford Sound region.
+To understand average air temperature at Mildford Sound region with data from three monitoring stations (cleddau, easthomer, and mountbelle) .
 
 ## Key Steps
 
@@ -16,6 +16,7 @@ Created S3 bucket. Uploaded three demo csv files. These files contains hourly ai
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/e7490c99-d675-415a-be2b-5d04ca3a940b" />
 
+
 ### 2. Snowflake
 
 Connected Snowflake warehouse with S3. Extracted data from S3 files. Set up key information such as IAM, Storage Integration, Stages, and table schema. 
@@ -23,6 +24,7 @@ Connected Snowflake warehouse with S3. Extracted data from S3 files. Set up key 
 (source code: `avalanche_extract.sql`)
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
+
 
 ### 3. dbt
 
