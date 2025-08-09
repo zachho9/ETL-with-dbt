@@ -45,7 +45,7 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 
 
 
-#### dbt models in the Snowflake view:
+#### dbt model outputs in the Snowflake view:
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cc9e57f1-b789-4cfa-8aa5-ab836216a21e" />
 
