@@ -1,0 +1,45 @@
+[0m19:32:49.314328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF0F2D7E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF0D325590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF106F7C50>]}
+
+
+============================== 19:32:49.321210 | ed7a4f3a-563e-4990-b612-f38f72301f96 ==============================
+[0m19:32:49.321210 [info ] [MainThread]: Running with dbt=1.10.7
+[0m19:32:49.323363 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Zach\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:32:49.362576 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Zach\.dbt
+[0m19:33:35.998344 [debug] [MainThread]: Starter project path: C:\Users\Zach\miniconda3\envs\etl\Lib\site-packages\dbt\include\starter_project
+[0m19:33:36.046557 [info ] [MainThread]: 
+Your new dbt project "etl_ava" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:33:36.051820 [info ] [MainThread]: Setting up your profile.
+[0m19:38:02.327955 [info ] [MainThread]: Profile etl_ava written to C:\Users\Zach\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:38:02.332801 [debug] [MainThread]: Command `dbt init` succeeded at 19:38:02.332469 after 313.18 seconds
+[0m19:38:02.333547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF147E6EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF117F44D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF137C7BD0>]}
+[0m19:38:02.334217 [debug] [MainThread]: Flushing usage events
+[0m19:38:03.618020 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:39:57.722957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE665C7E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE64679590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE689AFC50>]}
+
+
+============================== 19:39:57.728673 | 58bdf952-96d0-4ebd-9408-75c0f4cc16f3 ==============================
+[0m19:39:57.728673 [info ] [MainThread]: Running with dbt=1.10.7
+[0m19:39:57.730808 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Zach\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:39:57.731597 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path e:\Coding\VSCode\ETL-with-dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:39:57.736073 [debug] [MainThread]: Command `dbt run` failed at 19:39:57.735801 after 0.22 seconds
+[0m19:39:57.736706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE68A28050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE68A24050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE678CC9E0>]}
+[0m19:39:57.737264 [debug] [MainThread]: Flushing usage events
+[0m19:39:58.888576 [debug] [MainThread]: An error was encountered while trying to flush usage events
