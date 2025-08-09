@@ -23,10 +23,10 @@ Created an S3 bucket and uploaded three sample CSV files containing hourly air t
 
 
 ### 2. Snowflake
-
-Connected the Snowflake warehouse to S3.  
-Configured key components including IAM roles, storage integration, stages, and table schema.  
-Read data from the S3 files.  
+ 
+- Configured key components including IAM roles, storage integration, stages, and table schema.
+- Connected the Snowflake warehouse to S3.
+- Read data from the S3 files.
 (source code: `avalanche_extract.sql`)
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
