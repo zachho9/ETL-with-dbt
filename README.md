@@ -22,7 +22,7 @@ Connected Snowflake warehouse with S3. Extracted data from S3 files. Set up key 
 
 (source code: `avalanche_extract.sql`)
 
-![sf_tables](screenshots\sf_tables.png)
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
 
 ### 3. dbt
 
@@ -34,25 +34,25 @@ Built SQL pipeline to perform transformation and load the final results as Snowf
 
 Below is DAG graphs in generated dbt docs:
 
-![dbt_graph](screenshots\dbt_graph.png)
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/1321d689-9950-4c2d-bee3-2222190ad6a5" />
 
 
 
 Below is dbt models in Snowflake view:
 
-![sf_views](screenshots\sf_views.png)
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cc9e57f1-b789-4cfa-8aa5-ab836216a21e" />
 
 
 
 Below is final results in generated dbt docs:
 
-![dbt_final_view](screenshots\dbt_final_view.png)
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/285f4904-f23b-4adb-b378-19a88db9c92e" />
 
 
 
 Below is final results, showing average temperature across three stations:
 
-![sf_final_outputs](screenshots\sf_final_outputs.png)
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/7b1ff938-80a1-431a-a6d3-2f7c43dc16b9" />
 
 
 
