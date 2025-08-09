@@ -24,19 +24,17 @@ Created an S3 bucket and uploaded three sample CSV files containing hourly air t
 
 ### 2. Snowflake
 
-Connected the Snowflake warehouse to S3.
-Read data from the S3 files and configured key components, including IAM roles, storage integration, stages, and table schema.
+Connected the Snowflake warehouse to S3. Read data from the S3 files and configured key components, including IAM roles, storage integration, stages, and table schema.
 (source code: `avalanche_extract.sql`)
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
 
-Table schema example
+#### Table schema example
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/523716d2-3b0a-41ed-8709-c12198e9e5fd" />
 
 ### 3. dbt
 
 Built a SQL pipeline in dbt to transform the data and load the final results as a Snowflake view.
-
 (source code: `etl_ava/models` folder)
 
 
@@ -64,7 +62,7 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 
 #### Visulise final results:
 
-<img width="1625" height="665" alt="Image" src="https://github.com/user-attachments/assets/8cce9b82-3644-410a-98c1-ca76cd3c70f1" />
+<img width="1644" height="717" alt="Image" src="https://github.com/user-attachments/assets/7863a6dd-2495-4453-8bc4-56a1ee50bd98" />
 
 
 
