@@ -6,7 +6,7 @@ This demo project demonstrates my skills in building data pipelines (ETL/ELT) us
 
 ## Goal
 
-To understand the average air temperature in the Milford Sound region using data from three monitoring stations: Cleddau, East Homer, and Mount Belle.
+To understand the daily average air temperature in the Milford Sound region using data from three monitoring stations: Cleddau, East Homer, and Mount Belle.
 
 ## Tools
 - **AWS S3** for data storage.
