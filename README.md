@@ -29,7 +29,7 @@ Connected the Snowflake warehouse to S3. Read data from the S3 files and configu
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
 
-#### Table schema example
+#### Table schema example:
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/523716d2-3b0a-41ed-8709-c12198e9e5fd" />
 
 ### 3. dbt
