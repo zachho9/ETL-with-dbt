@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: avalanche
+    description: avalanche data source
+    database: ETL_DB
+    schema: avalanche
+    tables:
+      - name: cleddau
+        description: cleddau raw data
+      - name: easthomer
+        description: easthomer raw data
+      - name: mountbelle
+        description: mountbelle raw data
