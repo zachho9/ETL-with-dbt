@@ -2,7 +2,7 @@
 
 ## Background
 
-This demo project demonstrates my familiarity and hands-on experience with AWS, Snowflake, and dbt.
+This demo project demonstrates my skills in building ETL pipelines using AWS, Snowflake, and dbt.
 
 ## Goal
 
