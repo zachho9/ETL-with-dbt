@@ -60,7 +60,7 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/285f4904-f23b-4adb-b378-19a88db9c92e" />
 
 
-#### Visulise final results:
+#### Visualise final results:
 
 <img width="1644" height="717" alt="Image" src="https://github.com/user-attachments/assets/7863a6dd-2495-4453-8bc4-56a1ee50bd98" />
 
