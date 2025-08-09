@@ -24,12 +24,14 @@ Created an S3 bucket and uploaded three sample CSV files containing hourly air t
 
 ### 2. Snowflake
 
-Connected the Snowflake warehouse to S3. Read data from the S3 files and configured key components, including IAM roles, storage integration, stages, and table schema.
-
+Connected the Snowflake warehouse to S3.
+Read data from the S3 files and configured key components, including IAM roles, storage integration, stages, and table schema.
 (source code: `avalanche_extract.sql`)
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/567d479c-fe34-4e85-81ac-d3d71c6febc8" />
 
+Table schema example
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/523716d2-3b0a-41ed-8709-c12198e9e5fd" />
 
 ### 3. dbt
 
@@ -39,7 +41,7 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 
 
 
-#### DAG graphs from the generated dbt docs:
+#### DAG graphs in the generated dbt docs:
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/1321d689-9950-4c2d-bee3-2222190ad6a5" />
 
@@ -50,16 +52,20 @@ Built a SQL pipeline in dbt to transform the data and load the final results as 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cc9e57f1-b789-4cfa-8aa5-ab836216a21e" />
 
 
+#### Final output showing the average temperature across the three stations:
+
+<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cf04154c-34eb-438e-8363-bb78f3601411" />
+
 
 #### Final results in the generated dbt docs:
 
 <img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/285f4904-f23b-4adb-b378-19a88db9c92e" />
 
 
+#### Visulise final results:
 
-#### Final output showing the average temperature across the three stations:
+<img width="1625" height="665" alt="Image" src="https://github.com/user-attachments/assets/8cce9b82-3644-410a-98c1-ca76cd3c70f1" />
 
-<img width="1920" height="935" alt="Image" src="https://github.com/user-attachments/assets/cf04154c-34eb-438e-8363-bb78f3601411" />
 
 
 
